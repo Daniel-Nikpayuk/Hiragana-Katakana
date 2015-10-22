@@ -1,0 +1,99 @@
+/* Copyright 2014, 2015 Daniel Nikpayuk
+This file is part of Hiragana-Katakana.
+
+    Hiragana-Katakana is free software: you can redistribute it and/or modify
+    it under the terms of the GNU Lesser General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Hiragana-Katakana is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU Lesser General Public License for more details.
+
+    You should have received a copy of the GNU Lesser General Public License
+    along with Hiragana-Katakana.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+html { height: 100%; background: #FAAC58; }
+
+#main_area
+{
+	width: 800px;
+	height: 600px;
+	margin: 80px 0 0 250px;
+}
+
+#options_area
+{
+	width: 100px;
+	height: 600px;
+	margin: 0 0 0 0;
+	float: left;
+}
+
+#screen_area
+{
+	width: 500px;
+	height: 600px;
+	margin: 0 0 0 0;
+	float: left;
+}
+
+#card_area
+{
+	width: 100px;
+	height: 600px;
+	margin: 0 0 0 0;
+	float: left;
+}
+
+#screen
+{
+	width: 500px;
+	height: 500px;
+	border-radius: 30px;
+	margin: 0 0 0 0;
+	float: left;
+
+	background: #CEE3F6;
+	color: #BD1717;
+
+	text-align: center;
+}
+
+#index
+{
+	width: 86px;
+	height: 26px;
+	margin: 7px 0 0 30px;
+	float: left;
+
+	color: #BD1717;
+
+	text-align: center;
+	font: bold 18px Arial, sans-serif;
+}
+
+.button
+{
+	width: 86px;
+	height: 26px;
+	margin: 7px 7px 0 7px;
+	border-radius: 7px;
+	float: left;
+
+	text-align: center;
+	font: bold 18px Arial, sans-serif;
+}
+
+#shuffle, #repeat, #invert, #mute, #toggle,
+#reshuffle, #vowels, #k_syllables, #s_syllables,
+#t_syllables, #n_syllables, #h_syllables, #m_syllables,
+#y_syllables, #r_syllables, #wn_syllables, #g_syllables,
+#z_syllables, #d_syllables, #b_syllables, #p_syllables, #all
+{ background: white; color: #BD1717; float: right; }
+
+#toggle
+{ margin: 333px 7px 0 7px; }
+
