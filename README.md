@@ -3,7 +3,8 @@ Hiragana-Katakana
 
 A Javascript web-browser educational app allowing one to practice Hiragana and Katakana as flashcards with audio.
 
-Just load the main Hiragana-Katakana.html in your own browser. I did my best at a minimalist interface.
+Just load the main Hiragana-Katakana.html in your own browser. I've tested it on Firefox (v41.0.2),
+but I've heard it doesn't work on Safari. It uses some newer HTML5. Regardless, I did my best at a minimalist interface.
 A few additional options allow for things like *memory shuffling* and convenience functions such as *repeat*.
 
 I took 4 semesters of Japanese, and although the Inuit language certainly has some linguistic (especially phonetic)
